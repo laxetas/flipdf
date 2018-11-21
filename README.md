@@ -1,9 +1,18 @@
-pdf.js + turn.js => flipbook
+# PDF FLIPBOOK
+Pdf flipbook converter with turnjs and pdfjs libraries.
 
-Installation:
+## Demo
+![alt tag](http://eray.info/demo/pdf-flipbook/ompressed.tracemonkey-pldi-09.pdf20161028171848.gif)
 
-- Upload pdfjs-flipbook into your web space
+[Demo](http://eray.info/demo/pdf-flipbook)
 
-- Call by your browser http://your.domain.com/pdfjs-flipbook/web/viewer.html?file=pdf.pdf
+## Usage
 
-- Details: http://www.link-infotec.co.uk/articles/pdfjs-and-turnjs-magazine-viewer/
+#### Define PDF Src
+
+to define the src, open pdfjs/viewer.js and change to line 30.
+```javascript
+var DEFAULT_URL =  "compressed.tracemonkey-pldi-09.pdf";
+```
+
+ 
